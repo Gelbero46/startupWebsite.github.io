@@ -2,7 +2,7 @@
 :root {
   font-size: 1em;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -36,7 +36,8 @@ p {
   -webkit-transition: opacity 175ms linear, -webkit-transform 200ms ease-in-out;
   transition: opacity 175ms linear, -webkit-transform 200ms ease-in-out;
   transition: transform 200ms ease-in-out, opacity 175ms linear;
-  transition: transform 200ms ease-in-out, opacity 175ms linear, -webkit-transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out, opacity 175ms linear,
+    -webkit-transform 200ms ease-in-out;
   word-wrap: normal;
   padding: 0.7em 1.5em;
 }
@@ -44,7 +45,7 @@ p {
 .landing .btn:hover,
 .landing .btn:focus {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   opacity: 0.9;
 }
 
@@ -67,7 +68,7 @@ p {
 
 .hero-text {
   text-align: center;
-  padding: 20em 0;
+  padding: 15em 0;
   width: 75%;
   margin: 0 auto;
 }
@@ -94,13 +95,13 @@ p {
 
 .navbar {
   -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
 .navbar-collapse {
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .navbar-collapse .navbar-nav {
@@ -141,15 +142,15 @@ p {
 
 .featured .row {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .featured__item {
   display: block;
   position: relative;
   -webkit-transform: scale(0.85);
-          transform: scale(0.85);
+  transform: scale(0.85);
   -webkit-transition: -webkit-transform 250ms ease-in-out;
   transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
@@ -159,12 +160,14 @@ p {
   padding: 0;
 }
 
-.featured__item:hover, .featured__item:focus {
+.featured__item:hover,
+.featured__item:focus {
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
-.featured__item:hover .featured__details, .featured__item:focus .featured__details {
+.featured__item:hover .featured__details,
+.featured__item:focus .featured__details {
   opacity: 1;
 }
 
@@ -250,8 +253,8 @@ p {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
     padding: 2em 2em;
   }
   .our-products .product .btn {
@@ -293,7 +296,7 @@ p {
 
 .team .card-columns {
   -webkit-column-count: 4;
-          column-count: 4;
+  column-count: 4;
 }
 
 .team .card {

@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100;200;300;400;700;800;900&display=swap");
 :root {
   font-size: 1em;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -33,18 +32,15 @@ p {
   background-color: var(--clr-accent, blue);
   color: var(--clr-text, #fff);
   text-transform: uppercase;
-  -webkit-transition: opacity 175ms linear, -webkit-transform 200ms ease-in-out;
   transition: opacity 175ms linear, -webkit-transform 200ms ease-in-out;
   transition: transform 200ms ease-in-out, opacity 175ms linear;
   transition: transform 200ms ease-in-out, opacity 175ms linear,
-    -webkit-transform 200ms ease-in-out;
   word-wrap: normal;
   padding: 0.7em 1.5em;
 }
 
 .landing .btn:hover,
 .landing .btn:focus {
-  -webkit-transform: scale(1.1);
   transform: scale(1.1);
   opacity: 0.9;
 }
@@ -94,13 +90,10 @@ p {
 }
 
 .navbar {
-  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
 
 .navbar-collapse {
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
   justify-content: flex-end;
 }
 
@@ -141,20 +134,14 @@ p {
 }
 
 .featured .row {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .featured__item {
   display: block;
   position: relative;
-  -webkit-transform: scale(0.85);
   transform: scale(0.85);
-  -webkit-transition: -webkit-transform 250ms ease-in-out;
-  transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
   text-decoration: none;
   color: #333;
   padding: 0;
@@ -162,7 +149,6 @@ p {
 
 .featured__item:hover,
 .featured__item:focus {
-  -webkit-transform: scale(1);
   transform: scale(1);
 }
 
@@ -200,7 +186,6 @@ p {
 .featured__details {
   text-align: center;
   opacity: 0;
-  -webkit-transition: opacity 250ms linear;
   transition: opacity 250ms linear;
 }
 
@@ -248,12 +233,7 @@ p {
 
 @media (max-width: 768px) {
   .our-products .product {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
     padding: 2em 2em;
   }
@@ -295,7 +275,6 @@ p {
 }
 
 .team .card-columns {
-  -webkit-column-count: 4;
   column-count: 4;
 }
 
